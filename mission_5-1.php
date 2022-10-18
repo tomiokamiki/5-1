@@ -59,7 +59,7 @@
       $sql -> execute();
       }
       
-      //表示する準備　$row['num']などを使いたかったため。
+      //表示する準備
       $sql = 'SELECT * FROM tbtest';
       $stmt = $pdo->query($sql);
       $results = $stmt->fetchAll();
